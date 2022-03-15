@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.saucedemo.DellTechnologiesTask.listener.ListenerTest"/>
+  </listeners>
+  <test thread-count="5" name="TestChrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario">
+        <methods>
+          <include name="coverAllTestcases"/>
+          <include name="navigation"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test thread-count="5" name="Testme(failed)">
+    <parameter name="browser" value="me"/>
+    <classes>
+      <class name="com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario">
+        <methods>
+          <include name="coverAllTestcases"/>
+          <include name="navigation"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario -->
+    </classes>
+  </test> <!-- Testme(failed) -->
+  <test thread-count="5" name="Testfirefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario">
+        <methods>
+          <include name="coverAllTestcases"/>
+          <include name="navigation"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario -->
+    </classes>
+  </test> <!-- Testfirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

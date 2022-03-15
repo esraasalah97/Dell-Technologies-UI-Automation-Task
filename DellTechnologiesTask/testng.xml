@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+   <listeners>
+           <listener class-name="com.saucedemo.DellTechnologiesTask.listener.ListenerTest"></listener>
+       </listeners>
+		<test  name="TestChrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario">
+			</class>
+		</classes>
+	</test>
+	<test  name="Testme">
+		<parameter name="browser" value="me" />
+		<classes>
+			<class name="com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario">
+			</class>
+		</classes>
+	</test>
+<test  name="Testfirefox">
+		<parameter name="browser" value="firefox" />
+			<classes>
+			<class name="com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario">
+			</class>
+		</classes>
+	</test>
+  
+</suite> <!-- Suite -->
