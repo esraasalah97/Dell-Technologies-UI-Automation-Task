@@ -1,11 +1,16 @@
 # Dell-Technologies-UI-Automation-Task
-This repo contains the task word file and its solution and dependencies</br>
+- This repository contains the first task solution.
+- For the testcases check <od> LoginScenarioTescases.xlsx </od> 
 
-## Dell Technologies Automation Task
+## Dell Technologies Automation Task Solution
+
+### Getting Started
+
+- Clone the repository on your machine using url: https://github.com/esraasalah97/Dell-Technologies-UI-Automation-Task
+- Open the repo in eclipse.
 
 ### The solution Implemented with Selenium and Java 
 
-- For the testcases check <od> LoginScenarioTescases.xlsx </od> 
 - All dependencies used in the <od> pom.xml </od> file if you face any dependencies issues just run maven clean then maven install in the pom file.</br>
 
 ### Steps to run:
