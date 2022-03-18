@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="70311" started-at="2022-03-15T20:18:31Z" finished-at="2022-03-15T20:19:41Z">
+  <suite name="Suite" duration-ms="93003" started-at="2022-03-18T11:57:18Z" finished-at="2022-03-18T11:58:51Z">
     <groups>
     </groups>
-    <test name="TestChrome" duration-ms="45571" started-at="2022-03-15T20:18:31Z" finished-at="2022-03-15T20:19:16Z">
+    <test name="TestChrome" duration-ms="7958" started-at="2022-03-18T11:57:18Z" finished-at="2022-03-18T11:57:26Z">
       <class name="com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="setUp" is-config="true" duration-ms="2312" started-at="2022-03-15T20:18:31Z" finished-at="2022-03-15T20:18:33Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="setUp" is-config="true" duration-ms="2060" started-at="2022-03-18T11:57:18Z" finished-at="2022-03-18T11:57:20Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="navigation" is-config="true" duration-ms="40903" started-at="2022-03-15T20:18:33Z" finished-at="2022-03-15T20:19:14Z">
+        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="navigation" is-config="true" duration-ms="4073" started-at="2022-03-18T11:57:20Z" finished-at="2022-03-18T11:57:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigation -->
-        <test-method status="FAIL" signature="coverAllTestcases()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="coverAllTestcases" duration-ms="1217" started-at="2022-03-15T20:19:14Z" finished-at="2022-03-15T20:19:15Z">
+        <test-method status="FAIL" signature="coverAllTestcases()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="coverAllTestcases" duration-ms="453" started-at="2022-03-18T11:57:24Z" finished-at="2022-03-18T11:57:25Z">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
@@ -62,23 +62,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- coverAllTestcases -->
-        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="navigation" is-config="true" duration-ms="398" started-at="2022-03-15T20:19:16Z" finished-at="2022-03-15T20:19:16Z">
+        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="navigation" is-config="true" duration-ms="223" started-at="2022-03-18T11:57:25Z" finished-at="2022-03-18T11:57:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigation -->
-        <test-method status="PASS" signature="positiveScenario()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="positiveScenario" duration-ms="264" started-at="2022-03-15T20:19:16Z" finished-at="2022-03-15T20:19:16Z">
+        <test-method status="PASS" signature="positiveScenario()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="positiveScenario" duration-ms="295" started-at="2022-03-18T11:57:25Z" finished-at="2022-03-18T11:57:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveScenario -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="close" is-config="true" duration-ms="86" started-at="2022-03-15T20:19:16Z" finished-at="2022-03-15T20:19:16Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@3cce5371]" name="close" is-config="true" duration-ms="327" started-at="2022-03-18T11:57:26Z" finished-at="2022-03-18T11:57:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario -->
     </test> <!-- TestChrome -->
-    <test name="Testme" duration-ms="11580" started-at="2022-03-15T20:19:16Z" finished-at="2022-03-15T20:19:28Z">
+    <test name="Testme" duration-ms="47152" started-at="2022-03-18T11:57:26Z" finished-at="2022-03-18T11:58:13Z">
       <class name="com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="setUp" is-config="true" duration-ms="4566" started-at="2022-03-15T20:19:16Z" finished-at="2022-03-15T20:19:21Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="setUp" is-config="true" duration-ms="40938" started-at="2022-03-18T11:57:26Z" finished-at="2022-03-18T11:58:07Z">
           <params>
             <param index="0">
               <value>
@@ -89,11 +89,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="navigation" is-config="true" duration-ms="5513" started-at="2022-03-15T20:19:21Z" finished-at="2022-03-15T20:19:26Z">
+        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="navigation" is-config="true" duration-ms="3279" started-at="2022-03-18T11:58:07Z" finished-at="2022-03-18T11:58:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigation -->
-        <test-method status="FAIL" signature="coverAllTestcases()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="coverAllTestcases" duration-ms="458" started-at="2022-03-15T20:19:26Z" finished-at="2022-03-15T20:19:27Z">
+        <test-method status="FAIL" signature="coverAllTestcases()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="coverAllTestcases" duration-ms="1158" started-at="2022-03-18T11:58:10Z" finished-at="2022-03-18T11:58:11Z">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
@@ -133,23 +133,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- coverAllTestcases -->
-        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="navigation" is-config="true" duration-ms="282" started-at="2022-03-15T20:19:27Z" finished-at="2022-03-15T20:19:28Z">
+        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="navigation" is-config="true" duration-ms="173" started-at="2022-03-18T11:58:12Z" finished-at="2022-03-18T11:58:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigation -->
-        <test-method status="PASS" signature="positiveScenario()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="positiveScenario" duration-ms="384" started-at="2022-03-15T20:19:28Z" finished-at="2022-03-15T20:19:28Z">
+        <test-method status="PASS" signature="positiveScenario()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="positiveScenario" duration-ms="340" started-at="2022-03-18T11:58:12Z" finished-at="2022-03-18T11:58:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveScenario -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="close" is-config="true" duration-ms="98" started-at="2022-03-15T20:19:28Z" finished-at="2022-03-15T20:19:28Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@446a1e84]" name="close" is-config="true" duration-ms="864" started-at="2022-03-18T11:58:12Z" finished-at="2022-03-18T11:58:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario -->
     </test> <!-- Testme -->
-    <test name="Testfirefox" duration-ms="13136" started-at="2022-03-15T20:19:28Z" finished-at="2022-03-15T20:19:41Z">
+    <test name="Testfirefox" duration-ms="37596" started-at="2022-03-18T11:58:13Z" finished-at="2022-03-18T11:58:51Z">
       <class name="com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="setUp" is-config="true" duration-ms="7534" started-at="2022-03-15T20:19:28Z" finished-at="2022-03-15T20:19:36Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="setUp" is-config="true" duration-ms="31794" started-at="2022-03-18T11:58:13Z" finished-at="2022-03-18T11:58:45Z">
           <params>
             <param index="0">
               <value>
@@ -160,11 +160,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="navigation" is-config="true" duration-ms="1945" started-at="2022-03-15T20:19:36Z" finished-at="2022-03-15T20:19:37Z">
+        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="navigation" is-config="true" duration-ms="1075" started-at="2022-03-18T11:58:45Z" finished-at="2022-03-18T11:58:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigation -->
-        <test-method status="FAIL" signature="coverAllTestcases()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="coverAllTestcases" duration-ms="451" started-at="2022-03-15T20:19:37Z" finished-at="2022-03-15T20:19:38Z">
+        <test-method status="FAIL" signature="coverAllTestcases()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="coverAllTestcases" duration-ms="650" started-at="2022-03-18T11:58:46Z" finished-at="2022-03-18T11:58:47Z">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
@@ -204,15 +204,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- coverAllTestcases -->
-        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="navigation" is-config="true" duration-ms="139" started-at="2022-03-15T20:19:38Z" finished-at="2022-03-15T20:19:38Z">
+        <test-method status="PASS" signature="navigation()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="navigation" is-config="true" duration-ms="248" started-at="2022-03-18T11:58:47Z" finished-at="2022-03-18T11:58:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigation -->
-        <test-method status="PASS" signature="positiveScenario()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="positiveScenario" duration-ms="492" started-at="2022-03-15T20:19:38Z" finished-at="2022-03-15T20:19:39Z">
+        <test-method status="PASS" signature="positiveScenario()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="positiveScenario" duration-ms="454" started-at="2022-03-18T11:58:48Z" finished-at="2022-03-18T11:58:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- positiveScenario -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="close" is-config="true" duration-ms="2457" started-at="2022-03-15T20:19:39Z" finished-at="2022-03-15T20:19:41Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.saucedemo.DellTechnologiesTask.testpackage.LoginScenario@d23e042]" name="close" is-config="true" duration-ms="2904" started-at="2022-03-18T11:58:48Z" finished-at="2022-03-18T11:58:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
