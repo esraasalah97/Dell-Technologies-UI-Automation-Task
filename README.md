@@ -1,7 +1,7 @@
 # Dell-Technologies-UI-Automation-Task
 This repo contains the task word file and its solution and dependencies</br>
-# Dell Technologies Automation Task
-## The solution Implemented with Selenium and Java 
+## Dell Technologies Automation Task
+### The solution Implemented with Selenium and Java 
 - For the testcases check <od> LoginScenarioTescases.xlsx </od> 
 - All dependencies used in the <od> pom.xml </od> file if you face any dependencies issues just run maven clean then maven install in the pom file.
 1) Open Constant Class in package (com.saucedemo.DellTechnologiesTask).
@@ -9,7 +9,7 @@ This repo contains the task word file and its solution and dependencies</br>
 3) To run the testcases of login scenario, right click in the LoginScenario class in package       (com.saucedemo.DellTechnologiesTask.testpackage) then run as TestNG.
 4) To run the whole suite to try the three different platforms (chrome,firefox and microsoft edge), open testng.xml then right       click and run as TestNG.
 
-## Notes: 
+### Notes: 
 
 - To try different values from the testdata just change the testdataColumnNumber variable in Constant Class.
 - You can cover all of testcases by changing the regex variables in the Constant Class Or you can add the same testcase with     different parameters in the testng suite file (testng.xml) and use a paramter annotation for this testcase like i did in the     browser parameter.
