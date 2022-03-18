@@ -7,7 +7,7 @@
 ### Getting Started
 
 - Clone the repository on your machine using url: https://github.com/esraasalah97/Dell-Technologies-UI-Automation-Task
-- Open the repo in eclipse.
+- Open the repository in eclipse.
 
 ### The solution Implemented with Selenium and Java 
 
